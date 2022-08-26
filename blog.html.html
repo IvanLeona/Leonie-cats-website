@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Cute Cats For Adoption</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,500&family=Dancing+Script&family=Lobster&family=Montserrat:wght@300&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/LOGO.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-bars" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="cats.html.html">CATS</a></li>
+                        <li><a href="blog.html.html">BLOG</a></li>
+                        <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="ShowMenu()"></i>
+            </nav>
+            <h1>Current Cats Available</h1>
+        </section>
+
+        <!-- blog  page content -->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/BANNER.jpg">
+                    <h2>Why should you adopt a cat instead of buying it?</h2>
+                    <p>All pets need love and care, the ones in puppy mills and pet shops and the ones in shelters that usually came from kitten mills and pet shops originally. But honestly, the pets in shelters usually are already potty trained ( for litter box, or outdoors), get all their shots, and fortunately, have been neutered or spayed.</p>
+                    <br>
+                    <p>Also, if you get an older animal, they've settled down and gotten past the teething stage. Yes, some kittens like to chew and knead things to soothe themselves. Also with older pets, you can see what their personality is like and whether they will be easy to live with. All families are different.</p>
+                    <br>
+                    <p>There are thousands of cats in shelters that need loving homes, thousands are euthanized each year because they are aren't adopted and shelters have to make room for the new cats that keep being brought in.</p>
+                    <br>
+                    <p>Most are brought in because so many pet owners don't have their cats spayed and neutered. When you adopt you save that cat's life. When you buy a cat you make the breeder happy, they smile all the way to the bank and a cat in the shelter loses its life.</p>
+                    
+                    <div class="comment-box">
+                        <h3>If you have any concern please leave a Comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="blog-right">
+                    <h3>Number of Cats Waiting To Adopt</h3>
+                    <div>
+                        <span>Siamese</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Persian</span>
+                        <span>33</span>
+                    </div>
+                    <div>
+                        <span>Ragdoll</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Ragdoll</span>
+                        <span>23</span>
+                    </div>
+                    <div>
+                        <span>Himalayan</span>
+                        <span>18</span>
+                    </div>
+                    <div>
+                        <span>American Shorthair</span>
+                        <span>30</span>
+                    </div>
+  
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Please help us to accommodate this adorable cats. Give them home and love that they deserve</p>
+            <img src="images/FACEBOOK.png">
+            <img src="images/INSTAGRAM.png">
+            <img src="images/TWITTER.png">
+            <img src="images/LINKEDIN.png">
+            <p>Made By Leona, Jhon Oliver 2022 Copyright</p>
+        </section>
+
+
+        <!--JAvaScript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function ShowMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
